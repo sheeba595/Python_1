@@ -44,7 +44,7 @@ book = Book("Python 101", "John Doe", 500)
 book.apply_discount()
 print(book.title, book.price)
 
-4.
+# 4.
 import math
 
 class Circle:
@@ -60,7 +60,7 @@ class Circle:
 c = Circle(5)
 print(c.area(), c.circumference())
 
-5.
+# 5.
 class BankAccount:
     def __init__(self, balance):
         self.balance = balance
@@ -79,7 +79,7 @@ account.deposit(500)
 account.withdraw(300)
 print(account.balance)
 
-6.
+# 6.
 class Movie:
     def __init__(self, title, director, rating):
         self.title = title
@@ -96,7 +96,7 @@ for m in movies:
     if m.rating > 8:
         print(m.title, m.rating)
         
-7.
+# 7.
 class Laptop:
     def __init__(self, brand, ram, price):
         self.brand = brand
@@ -110,7 +110,7 @@ l = Laptop("Dell", 8, 70000)
 l.upgrade_ram(8)
 print(l.ram)
 
-8.
+# 8.
 class Rectangle:
     def __init__(self, width, height):
         self.width = width
@@ -125,7 +125,7 @@ class Rectangle:
 r = Rectangle(5, 10)
 print(r.area(), r.perimeter())
 
-9.
+# 9.
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -137,7 +137,7 @@ class Person:
 p = Person("Alice", 20)
 p.status()
 
-10.
+# 10.
 class Temperature:
     def __init__(self, celsius=None, fahrenheit=None):
         self.celsius = celsius
@@ -152,7 +152,7 @@ class Temperature:
 t = Temperature(celsius=25)
 print(t.to_fahrenheit())
 
-11.
+# 11.
 class Vehicle:
     def move(self):
         print("Vehicle moving")
@@ -168,7 +168,7 @@ class Bike(Vehicle):
 Car().move()
 Bike().move()
 
-12.
+# 12.
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -182,7 +182,7 @@ class Manager(Employee):
 m = Manager("Alice", 50000, 10000)
 print(m.name, m.salary, m.bonus)
 
-13.
+# 13.
 class Shape:
     def area(self):
         pass
@@ -208,7 +208,7 @@ class Triangle(Shape):
     def area(self):
         return 0.5 * self.base * self.height
     
-    14.
+    # 14.
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -222,7 +222,7 @@ class Student(Person):
 s = Student("Bob", 18, 90)
 print(s.name, s.age, s.marks)
 
-15.
+# 15.
 
 class Person:
     def __init__(self, name, age):
@@ -237,7 +237,7 @@ class Student(Person):
 s = Student("Bob", 18, 90)
 print(s.name, s.age, s.marks)
 
-16.
+# 16.
 class Animal:
     def make_sound(self):
         pass
@@ -252,7 +252,7 @@ class Cat(Animal):
 
 Dog().make_sound()
 Cat().make_sound()
-17.
+# 17.
 class Appliance:
     def switch_on(self):
         print("Appliance is on")
@@ -270,7 +270,7 @@ w.wash()
 r = Refrigerator()
 r.cool()
 
-18.
+# 18.
 class Employee:
     def __init__(self, name, base_salary):
         self.name = name
@@ -291,7 +291,7 @@ dev = Developer("Alice", 50000)
 test = Tester("Bob", 40000)
 print(dev.calculate_salary(), test.calculate_salary())
 
-19.
+# 19.
 class Transport:
     def __init__(self, max_speed):
         self.max_speed = max_speed
@@ -306,7 +306,7 @@ b = Bus(80)
 t = Train(150)
 print(b.max_speed, t.max_speed)
 
-20.
+# 20.
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -320,7 +320,7 @@ class Teacher(Person):
 t = Teacher("Alice", 35, "Math")
 print(t.name, t.subject)
 
-21.
+# 21.
 class BankAccount:
     def __init__(self, balance):
         self.__balance = balance  # private
@@ -342,7 +342,7 @@ acc.deposit(500)
 acc.withdraw(300)
 acc.show_balance()
 
-22.
+# 22.
 class Student:
     def __init__(self, name, marks):
         self.name = name
@@ -362,7 +362,7 @@ s = Student("Alice", 90)
 print(s.get_marks())
 s.set_marks(120)  # Invalid marks
 
-23.
+# 23.
 class Car:
     def __init__(self, brand, model, price):
         self.brand = brand
@@ -379,7 +379,7 @@ c = Car("Toyota", "Corolla", 20000)
 c.increase_price()
 c.show_price()
 
-24.
+# 24.
 class Rectangle:
     def __init__(self, width, height):
         self.__width = width
@@ -391,7 +391,7 @@ class Rectangle:
 r = Rectangle(5, 10)
 print(r.area())
 
-25.
+# 25.
 class Employee:
     def __init__(self, name, role, salary):
         self.name = name
@@ -409,7 +409,7 @@ e2 = Employee("Bob", "Developer", 50000)
 e1.show_salary()
 e2.show_salary()
 
-26.
+# 26.
 class Laptop:
     def __init__(self, brand, ram):
         self.brand = brand
@@ -421,7 +421,7 @@ class Laptop:
 l = Laptop("Dell", 16)
 print(l.get_ram())
 
-27.
+# 27.
 class Laptop:
     def __init__(self, brand, ram):
         self.brand = brand
@@ -433,7 +433,7 @@ class Laptop:
 l = Laptop("Dell", 16)
 print(l.get_ram())
 
-28.
+# 28.
 class Movie:
     def __init__(self, title, rating):
         self.title = title
@@ -453,7 +453,7 @@ m = Movie("Inception", 9)
 print(m.get_rating())
 m.set_rating(12)  # Invalid rating
 
-29.
+# 29.
 class Product:
     def __init__(self, name, stock):
         self.name = name
@@ -471,8 +471,8 @@ class Product:
 p = Product("Laptop", 10)
 p.sell(3)
 p.show_stock()
-
-30.
+#
+# 30.
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -491,7 +491,7 @@ class Person:
 p = Person("Alice", 25)
 print(p.get_age())
 
-31.
+# 31.
 class Account:
     def __init__(self, pin):
         self.__pin = pin
@@ -509,7 +509,7 @@ a = Account(1234)
 a.change_pin(1234, 5678)
 print(a.get_pin())
 
-32.
+# 32.
 class Account:
     def __init__(self, pin):
         self.__pin = pin
@@ -527,7 +527,7 @@ a = Account(1234)
 a.change_pin(1234, 5678)
 print(a.get_pin())
 
-33.
+# 33.
 class Shape:
     def area(self):
         pass
@@ -553,7 +553,7 @@ class Triangle(Shape):
     def area(self):
         return 0.5 * self.b * self.h
     
-34.
+# 34.
 class Employee:
     def __init__(self, name, base):
         self.name = name
@@ -574,7 +574,7 @@ m = Manager("Alice", 50000)
 d = Developer("Bob", 40000)
 print(m.calculate_salary(), d.calculate_salary())
 
-35.
+# 35.
 class Notification:
     def send(self):
         print("Sending notification")
@@ -590,7 +590,7 @@ class SMSNotification(Notification):
 EmailNotification().send()
 SMSNotification().send()
 
-36.
+# 36.
 class Bird:
     def fly(self):
         pass
@@ -606,7 +606,7 @@ class Penguin(Bird):
 Sparrow().fly()
 Penguin().fly()
 
-37.
+# 37.
 class Appliance:
     def switch_on(self):
         print("Appliance on")
@@ -622,7 +622,7 @@ class Oven(Appliance):
 WashingMachine().switch_on()
 Oven().switch_on()
 
-38.
+# 38.
 class Person:
     def greet(self):
         print("Hello")
@@ -637,8 +637,8 @@ class Teacher(Person):
 
 Student().greet()
 Teacher().greet()
-
-39.
+# 
+# 39.
 class Payment:
     def process(self):
         print("Processing payment")
@@ -654,7 +654,7 @@ class UPIPayment(Payment):
 CreditCardPayment().process()
 UPIPayment().process()
 
-40.
+# 40.
 class Device:
     def turn_on(self):
         print("Device on")
@@ -670,7 +670,7 @@ class Laptop(Device):
 Phone().turn_on()
 Laptop().turn_on()
 
-41.
+# 41.
 class Library:
     def __init__(self):
         self.books = []
@@ -691,7 +691,7 @@ lib.display_books()
 lib.remove_book("Python 101")
 lib.display_books()
 
-42.
+# 42.
 class TodoList:
     def __init__(self):
         self.tasks = {}
@@ -713,7 +713,7 @@ t.mark_complete("Study")
 t.delete_task("Study")
 print(t.tasks)
 
-43.
+# 43.
 class Inventory:
     def __init__(self):
         self.products = []
@@ -730,7 +730,7 @@ inv.add_product("Laptop", 5, 50000)
 inv.add_product("Mouse", 20, 500)
 inv.display()
 
-44.
+# 44.
 class TicketBooking:
     def __init__(self, seats):
         self.available_seats = seats
@@ -752,7 +752,7 @@ tb.reserve_seat(5)
 tb.cancel_seat(2)
 tb.display_seats()
 
-45.
+# 45.
 class Course:
     def __init__(self, name):
         self.name = name
@@ -772,7 +772,7 @@ c.add_student("Alice")
 c.add_student("Bob")
 c.display_students()
 
-46.
+# 46.
 class ShoppingCart:
     def __init__(self):
         self.products = []
@@ -791,7 +791,7 @@ cart.add_product("Laptop", 50000)
 cart.add_product("Mouse", 500)
 print(cart.total_price())
 
-47.
+# 47.
 class StudentResult:
     def __init__(self, marks):
         self.marks = marks  # list of marks
@@ -812,7 +812,7 @@ class StudentResult:
 sr = StudentResult([80, 90, 70])
 print(sr.total(), sr.average(), sr.grade())
 
-48.
+# 48.
 class Restaurant:
     def __init__(self):
         self.orders = []
@@ -832,7 +832,7 @@ r.take_order("Coke", 100)
 print(r.calculate_bill())
 r.display_orders()
 
-49.
+# 49.
 class BankAccount:
     def __init__(self, name, balance):
         self.name = name
@@ -860,7 +860,7 @@ b.add_account(a2)
 b.transfer("Alice", "Bob", 200)
 print(a1.balance, a2.balance)
 
-50.
+# 50.
 class Game:
     def __init__(self):
         self.players = {}
@@ -876,6 +876,7 @@ g = Game()
 g.add_player("Alice", 50)
 g.add_player("Bob", 70)
 g.display_winner()
+
 
 
     
